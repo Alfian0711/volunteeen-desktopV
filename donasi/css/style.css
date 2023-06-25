@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    color: black;
+    background-color: #F7F7F7;
+
+    font-family: 'PT Sans';
+}
+html{ scroll-behavior: smooth;}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.4rem 7%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo{
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family:'PT Sans' ;
+    color: black;
+}
+
+.navbar .navbar-logo span {
+        color:#C2EA66;
+}
+
+.navbar .navbar-nav a{
+    margin: 0 1.5rem;
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+    font-family: 'PT Sans';
+}
+
+.navbar .navbar-nav a:hover {
+    background-color: #C2EA66;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+
+  }
+
+  .navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #043D2C;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+  }
+  
+  .navbar .navbar-extra select {
+    color:black;
+  }
+  
+  .navbar .navbar-extra a:hover {
+    color: var(--color);
+  }
+  
+  #hamburger-menu {
+    display: none;
+  }
+
+  /* main */
+
+  h4{
+    font-family: 'pt serif';
+    font-size: 16px;
+  }
+
+  .donasi-card{
+    display: flex;
+    /* justify-content: center; */
+    margin: 100px 150px 90px 150px;
+    padding: 1.4rem 3%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+
+
+
+  .side-card{
+    margin: 5px;
+    padding: 2.5rem 7%;
+  }
+
+  .container{
+    display: flex;
+    margin: 10px 0 30px 0;
+    flex-wrap: wrap;
+  }
+
+  .side-card .jml-donasi {
+    background-color:#F7F7F7;
+    /* border: 1px solid #C2EA66; */
+    margin: 10px 10px 0px 0;
+    padding: 12px 20px 12px 20px;
+    border-radius: 12px;
+    width: 180px;
+  }
+
+  .jml-donasi p{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3d3c3c66;
+  }
+
+
+
+
+
+  .nama , .doa{
+    margin: 40px 0 40px 0;
+
+  }
+
+  .input{
+      margin-top: 15px;
+      background-color: #F7F7F7;
+      border-radius: 12px;
+      padding: 12px 8px 12px 8px;
+    } 
+    
+  .input input{
+    /* margin-top: 15px; */
+    background-color: #F7F7F7;
+    padding:0 0 0 12px;
+  }
+
+  .input2{
+    margin-top: 15px;
+    background-color: #F7F7F7;
+    border-radius: 12px;
+    padding: 12px 0px 12px 8px;
+  }
+
+ .input2 input{
+    background-color: #F7F7F7;
+    padding:20px 0px 20px 10px;
+ }
+
+
+
+  .btn{
+    background-color: #043D2C;
+    border-radius: 12px;
+    margin: 15px 0 0 5px;
+    width: 550px;
+    height: 45px;
+  }
+  
+  .btn a{
+    color: #C2EA66;
+    font-weight: 200;
+  }

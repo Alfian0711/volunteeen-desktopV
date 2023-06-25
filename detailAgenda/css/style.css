@@ -1,0 +1,277 @@
+/* made by alfian */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    color: black;
+    background-color: #F7F7F7;
+
+    font-family: 'PT sans';
+}
+html{ scroll-behavior: smooth;}
+
+/* header */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.4rem 7%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo{
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family:'PT Sans' ;
+    color: black;
+}
+
+.navbar .navbar-logo span {
+        color:#C2EA66;
+}
+
+.navbar .navbar-nav a{
+    margin: 0 1.5rem;
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+    font-family: 'PT Sans';
+}
+
+.navbar .navbar-nav a:hover {
+    background-color:#C2EA66;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+
+  }
+
+  .navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #043D2C;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+  }
+  
+  .navbar .navbar-extra select {
+    color:black;
+  }
+  
+  .navbar .navbar-extra a:hover {
+    color: var(--color);
+  }
+  
+  #hamburger-menu {
+    display: none;
+  }
+  /* end header */
+
+
+
+
+/* main */
+
+.arrow a{
+    padding:0.5rem 4%;
+    display: flex;
+    margin-top: 37px;
+    color:black;
+}
+
+.arrow .text {
+    flex: 1;
+}
+ 
+.arrow .agenda {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+
+
+.detail-agenda{
+    padding: 1rem 13%;
+    display: flex;
+}
+.detail-agenda .img{
+    width: 640px;
+    height: 248px;
+    border-radius: 12px;
+}
+
+
+.card-side{
+    border: 1px solid #ffff ;
+    background-color: #ffff;
+    border-radius: 24px;
+    padding: 30px;
+    margin-left: 40px;
+    width: 400px;
+    height:471px;
+}
+
+.card-side2{
+    border: 1px solid #ffff ;
+    background-color: #ffff;
+    border-radius: 20px;
+    margin: 30px;
+    position: static;
+    padding: 12px;
+    
+}
+
+.btn2{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #F7F7F7;
+    margin: 10px 5px 5px 5px;
+    padding: 10px 100px 10px 100px;
+  }
+
+  .btn2 a{
+    color:#043D2C;
+    font-weight: bold;
+  }
+
+  .btn2 a:hover{
+    color:#C2EA66;
+}
+
+
+.header{
+    margin: 10px 0 8px 0;
+}
+.header h3{ 
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26.5px;
+}
+
+.sub-text{
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+}
+
+
+
+.icon{
+    margin: 30px 0 60px 0;
+    justify-content: space-between;
+  }
+
+  .icon .wrap{
+    flex: 1;
+  }
+  .icon .loc , .tgl{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+
+
+  .btn{
+    background-color: #043D2C;
+    border-radius: 10px;
+    margin: 10px 5px 5px 5px;
+    padding: 10px 140px 10px 140px;
+  }
+  .btn a{
+    color: #C2EA66;
+    font-weight: 200;
+  }
+
+
+
+.text{
+    padding: 1rem 13%;
+    margin-top: -250px;
+}
+.text h3{
+    margin: 13px 0 13px 0;
+}
+
+.row{
+    margin: 20px;
+}
+
+.img-row img{
+    display: flex;
+}
+
+
+
+
+
+  /* footer */
+
+  .footer .row2{
+    background-color: #111;
+    color: #ffff;
+    /* padding: 1.4rem 7%; */
+    padding: 40px;
+    border-radius: 24px;
+    margin: 130px 20px 20px 20px;
+  }
+  .logo{
+    margin-bottom: 30px;
+  }
+  .logo h2{
+    margin-bottom: 23px;
+    color: #ffff;
+  }
+  .logo span{
+    color:#C2EA66 ;
+
+  }
+
+  .row2 .row-tag{
+    text-align: center;
+    margin:10px;
+    color: #ffff;
+    font-family:'PT Sans' ;
+    display: flex;
+    float: right;
+  }
+
+  .row2 .row-tag a{
+    color: #ffff;
+    font-family:'PT Sans' ;
+    font-size: 15px;
+  }
+
+  .row2 .row-tag a:hover{
+    color: #C2EA66;
+  }
+  
+  .copywrite{
+    padding-bottom: 20px;
+    font-size: 13px;
+  }
+.copywrite p{
+  margin-top: 15px;
+  float: left;
+}
+  .copywrite .sub{
+    float: right;
+  }
