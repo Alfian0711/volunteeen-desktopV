@@ -11,7 +11,10 @@
 body{
     color: black;
     background-color: #F7F7F7;
-
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
     font-family: 'PT sans';
 }
 html{ scroll-behavior: smooth;}
