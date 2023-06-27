@@ -229,6 +229,8 @@ html{ scroll-behavior: smooth;}
   /* footer */
   footer{
     padding: 32px 2vw 12px;
+    height: 100%;
+    margin-top: auto;
   }
    .box {
     display: inline-flex;
