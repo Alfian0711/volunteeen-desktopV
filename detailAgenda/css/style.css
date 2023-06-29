@@ -26,6 +26,7 @@ html{ scroll-behavior: smooth;}
     align-items: center;
     justify-content: space-between;
     position: relative;
+    width: 100%;
     padding: 1.4rem 7%;
     top: 0;
     left: 0;
@@ -230,7 +231,7 @@ html{ scroll-behavior: smooth;}
   footer{
     padding: 32px 2vw 12px;
     height: 100%;
-    margin-top: auto;
+    margin-top: 80%;
   }
    .box {
     display: inline-flex;
