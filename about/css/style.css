@@ -8,12 +8,12 @@
 }
 body{
     color: black;
-    background-color: #F7F7F7;
+    background-color:#FFF;
     margin: 0;
     padding: 0;
     width: 100vw;
     overflow-x: hidden;
-    font-family: 'PT Sans';
+    font-family: 'PT sans';
 }
 html{ scroll-behavior: smooth;}
 
@@ -81,6 +81,55 @@ html{ scroll-behavior: smooth;}
   }
 
 
+  /* main */
+
+  .about{
+    padding: 2rem 10%;
+    display: flex;
+    margin: 40px 30px 20px 40px;
+  }
+
+  .card span{
+    color:#F7F7F7;
+  }
+  span{
+    color: #C2EA66;
+  }
+
+  .about .card{
+    background-color:#C2EA66;
+    border-radius: 1.4rem ;
+    width: 100%;
+    margin-right: 2rem;
+  }
+
+  .card h2{
+    padding: 1.2rem 7%;
+
+  }
+  .img{
+    padding: 8px;
+  }
+  .img .h1{
+    border-top: 1px solid #bbb;
+    margin:0 12px 20px 12px;
+  }
+  
+  .card .img .row{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    margin: 10px;
+ }
+
+  .card2 h2{
+    margin: 30px;
+  }
+
+  .card2 p{
+  margin-left: 30px;
+  }
+
 
 
 
@@ -97,7 +146,7 @@ html{ scroll-behavior: smooth;}
 footer{
     padding: 32px 2vw 12px;
     height: 100%;
-    margin-top: auto;
+    /* margin-top: 50%; */
   }
      .box {
       display: inline-flex;
