@@ -32,6 +32,7 @@ html{ scroll-behavior: smooth;}
     left: 0;
     right: 0;
     z-index: 9999;
+    background-color: #fff;
 }
 
 .navbar .navbar-logo{
@@ -55,7 +56,14 @@ html{ scroll-behavior: smooth;}
 
 .navbar .navbar-nav a:hover {
     background-color:#C2EA66;
-    border-radius: 30px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+
+  }
+
+  .navbar-nav .agendanav{
+    background-color:#C2EA66;
+    border-radius: 20px;
     padding: 5px 10px 5px 10px;
 
   }
@@ -230,7 +238,7 @@ html{ scroll-behavior: smooth;}
   /* footer */
   footer{
     padding: 32px 2vw 12px;
-    height: 100%;
+    height:fit-content;
     margin-top: 80%;
   }
    .box {

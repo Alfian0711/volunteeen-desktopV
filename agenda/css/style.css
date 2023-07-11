@@ -29,6 +29,7 @@ html{ scroll-behavior: smooth;}
     left: 0;
     right: 0;
     z-index: 9999;
+    background-color: #ffff;
 }
 
 .navbar .navbar-logo{
@@ -52,7 +53,13 @@ html{ scroll-behavior: smooth;}
 
 .navbar .navbar-nav a:hover {
     background-color:#C2EA66;
-    border-radius: 30px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+
+  }
+  .navbar-nav .agendanav{
+    background-color:#C2EA66;
+    border-radius: 20px;
     padding: 5px 10px 5px 10px;
 
   }
