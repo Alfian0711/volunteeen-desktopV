@@ -77,10 +77,15 @@ html{ scroll-behavior: smooth;}
     transform: scaleX(0.5);
   }
   
-  .navbar .navbar-extra select {
+  .navbar .navbar-extra label {
     color:black;
+    display: flex;
+    gap: 8px;
+    align-items: center;
   }
+
   
+
   .navbar .navbar-extra a:hover {
     color: var(--color);
   }
@@ -111,14 +116,15 @@ html{ scroll-behavior: smooth;}
 
   .card{
     display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
+    gap: 20px;
+    /* flex-direction: row; */
     padding: 1.4rem 7%;
     justify-content: space-between;
     width: 100%;
   }
 
 .row{
+
     margin-bottom: 15px ;
     border: 1px solid #ffff ;
     background-color: #ffff;

@@ -75,8 +75,12 @@ html{ scroll-behavior: smooth;}
     transform: scaleX(0.5);
   }
   
-  .navbar .navbar-extra select {
+  .navbar .navbar-extra label {
     color:black;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+
   }
   
   .navbar .navbar-extra a:hover {
@@ -177,7 +181,7 @@ html{ scroll-behavior: smooth;}
   /* Footer */
 footer{
     padding: 32px 2vw 12px;
-    height: 100%;
+    height: fit-content;
     /* margin-top: 50%; */
   }
      .box {

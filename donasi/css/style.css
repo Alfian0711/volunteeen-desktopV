@@ -93,39 +93,50 @@ html{ scroll-behavior: smooth;}
   h4{
     font-family: 'pt serif';
     font-size: 16px;
+    margin-bottom: 20px;
   }
 
   .donasi-card{
     display:flex;
-    margin: 100px 20px 50px 20px;
-    width: 95%;
-    padding: 1.4rem 3%;
+    margin: auto;
+    width: fit-content;
+    padding: 2rem 7%;
     border: 2px solid #fff;
     border-radius: 24px;
     background-color: #fff;
+    gap: 100px;
+    margin-top: 100px;
   }
 
 
 
   .side-card{
-    margin: 5px;
-    padding: 2.5rem 7%;
+    box-sizing: border-box;
+    /* margin: 5px; */
+    /* padding: 2.5rem 7%; */
   }
 
   .container{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
+    /* flex-wrap: wrap;
     flex-direction: row;
     width: auto;
-    padding-right: 90px;
+    padding-right: 90px; */
+  }
+
+  .container .row{
+    display: flex;
+    gap: 12px;
+    
   }
 
   .side-card .jml-donasi {
-    display: inline-flex;
 
     background-color:#F7F7F7;
     /* border: 1px solid #C2EA66; */
-    margin: 10px 10px 0px 0;
+    /* margin: 10px 10px 0px 0; */
     padding: 12px 20px 12px 20px;
     border-radius: 12px;
     width: 180px;
@@ -137,6 +148,12 @@ html{ scroll-behavior: smooth;}
     font-weight: 400;
     color: #3d3c3c66;
   }
+
+  .side-card .jml-donasi:active{
+    border:2px solid #043D2C;
+    
+  }
+
 
 
 
@@ -197,7 +214,7 @@ html{ scroll-behavior: smooth;}
 footer{
   padding: 32px 2vw 12px;
   height:fit-content;
-  margin-top: 70%;
+  margin-top:300px;
 }
    .box {
     display: inline-flex;
